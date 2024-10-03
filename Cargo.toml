@@ -1,0 +1,7 @@
+[package]
+name = "customcursor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ico = "0.3.0"
