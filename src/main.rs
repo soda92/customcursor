@@ -1,6 +1,8 @@
 fn main() {
     // Read an ICO file from disk:
-    let file = std::fs::File::open("Cursors/aero_arrow.cur").unwrap();
+    let file =
+        std::fs::File::open(env!("CARGO_MANIFEST_DIR").to_owned() + "/" + "Cursors/aero_arrow.cur")
+            .unwrap();
     let icon_dir = ico::IconDir::read(file).unwrap();
     // Print the size of each image in the ICO file:
     for entry in icon_dir.entries() {

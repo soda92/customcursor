@@ -20,3 +20,4 @@ data[13] = 0
 data[2] = 0x02
 
 Path("py/33.cur").write_bytes(data)
+Path("C:/Windows/Cursors/33.cur").write_bytes(data)
