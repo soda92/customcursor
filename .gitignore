@@ -6,3 +6,6 @@ Cursors_ico
 # Added by cargo
 
 /target
+
+/build
+/dist
